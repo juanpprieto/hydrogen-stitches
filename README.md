@@ -1,12 +1,13 @@
 # Stitches CSS-in-JS x Hydrogen
 
 Hydrogen is a React framework and SDK that you can use to build fast and dynamic Shopify custom storefronts.
-[Check out the docs](https://shopify.dev/custom-storefronts/hydrogen)
-[Run this template on StackBlitz](https://stackblitz.com/github/Shopify/hydrogen/tree/stackblitz/templates/hello-world-js)
+- [Check out the docs](https://shopify.dev/custom-storefronts/hydrogen)
+- [Run this template on StackBlitz](https://stackblitz.com/github/Shopify/hydrogen/tree/stackblitz/templates/hello-world-js)
 
 Stitches is a CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.
-[Check out the docs](https://stitches.dev/docs/installation)
-[Check out on github](https://github.com/stitchesjs/stitches)
+
+- [Check out the docs](https://stitches.dev/docs/installation)
+- [Check out on github](https://github.com/stitchesjs/stitches)
 
 ## Getting started
 
