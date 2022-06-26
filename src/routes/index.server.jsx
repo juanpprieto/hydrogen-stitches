@@ -1,19 +1,22 @@
-import {styled, getCssText} from '../../stitches.config';
-import {Head} from '@shopify/hydrogen';
+import {styled} from '../../stitches.config';
 
-const Heading = styled('p', {
-  backgroundColor: 'gainsboro',
-  fontSize: '13px',
-  padding: '10px 15px',
+const Heading = styled('h1', {
+  backgroundColor: 'white',
+  color: 'red',
+  fontSize: '64px',
+  padding: '0 15px',
   '&:hover': {
     backgroundColor: 'lightgray',
+  },
+  '@lg': {
+    backgroundColor: 'red',
+    color: 'white',
+    '&:hover': {
+      backgroundColor: 'darkred',
+    },
   },
 });
 
 export default function Home() {
-  return (
-    <>
-      <Heading>Hello Worlds</Heading>
-    </>
-  );
+  return <Heading>Hello World</Heading>;
 }

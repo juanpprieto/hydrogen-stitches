@@ -17,7 +17,9 @@ export const {
     },
   },
   media: {
-    bp1: '(min-width: 480px)',
+    sm: '(min-width: 640px)',
+    md: '(min-width: 768px)',
+    lg: '(min-width: 1024px)',
   },
   utils: {
     marginX: (value) => ({marginLeft: value, marginRight: value}),

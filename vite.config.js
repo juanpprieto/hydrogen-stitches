@@ -4,4 +4,7 @@ import netlify from '@netlify/hydrogen-platform/plugin';
 
 export default defineConfig({
   plugins: [hydrogen(), netlify()],
+  optimizeDeps: {
+    include: ['@stitches/react'],
+  },
 });
